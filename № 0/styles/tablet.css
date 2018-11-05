@@ -1,0 +1,188 @@
+@media only screen and (max-width:920px){
+	h1{
+	font-size: 100px;
+	color: #fff;
+	}
+	h2{
+	font-size: 28px;
+	line-height: 45x;
+	text-transform: uppercase;
+	}
+	h3{
+	font-size: 18px;
+	text-transform: uppercase;
+	}
+	.container{
+	margin: 0 auto;
+	max-width: 900px;
+	padding: 0 10px;
+	}
+	.container-2{
+	margin: 0 auto;
+	max-width: 900px;
+	padding: 0 0px
+	}
+	.group-16{
+	min-height: 600px;
+	}
+	.header{
+	height: 80px;
+	}
+	.header-wrapper{
+	height: 80px;
+	flex-wrap: wrap;
+	}
+	.navigation{
+	height: 100%;
+	font-size: 15px;
+	margin-left: -30px;
+	}
+	.nav-list-item{
+		margin: 0 8px;
+	}
+	.nav-list-item a{
+	padding: 21px 11px;
+	}
+	.header-social{
+	height: 100%;
+	margin-left:-30px;
+	}
+	.header-social-list-item a{
+	padding: 0 4px;
+	}
+	/*=====меню при скроле====*/
+	.fixed{
+	position: fixed;
+	width: 100%;
+	max-width: 860px;
+	background-color: #222;
+	height: 80px;
+	z-index: 100;
+	opacity: 1;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	margin: 0 auto;
+	margin-top: 10px;
+	}
+	.fixed .nav-list-item a{
+	padding: 21px 11px;
+	}.fixed .header-social{
+		margin-left: -50px;
+	}
+
+	/*====== первый блок=====*/
+	.group-16-title-wrapper{
+		padding-top: 90px;
+		padding-bottom: 70px;
+	}
+	.group-16-dscr{
+		font-size: 20px;
+		margin-bottom: 40px;
+		letter-spacing: 10px;
+	}
+	/*====== второй блок=====*/
+	.agency{
+	background-color: #11749e;
+	min-height: 700px;
+	}
+	.agency-wrapper{
+	padding-top: 100px;
+	padding-bottom: 50px;
+	}
+	/*====== третий новостной блок=====*/
+	.news-block{
+	min-height: 600px;
+	}
+	.news-image-wrapper{
+		display: none;
+	}
+	.news-item{
+		justify-content: center;
+		align-items: center;
+	}
+	.news-item-info{
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-top: 40px;
+	min-height: 350px;
+	}
+	/*=====болг======*/
+	.blog{
+	min-height: 600px;
+	}
+	.blog-wrapper{
+	padding-top: 100px;
+	padding-bottom: 70px
+	}
+	.blog-title-wrapper{
+	margin-bottom: 40px;
+	}
+	.blog-slogan{
+	font-size: 20px;
+	margin-bottom: 30px;
+	}
+	.blog-image{
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.blog-info{
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
+	}
+	.blog-info-item{
+		max-width: 50%;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.blog-item-dscr{
+		max-width: 400px;
+	}
+	.blog-info-item:nth-child(2n){
+		display: none;
+	}
+	/*=====шестой блок======*/
+	.quick-action-wrapper{
+		padding-top: 90px;
+		padding-bottom: 70px;
+		flex-direction: column;
+	}
+	/*=====седьмой блок с айфоном=====*/
+	.key-feature{
+		min-height: 600px;
+	}
+	.key-feature-wrapper{
+		padding-bottom: 70px;
+	}
+	/*====== седьмой блок команда блок =====*/
+	.team{
+	min-height: 600px;
+	}
+	.team-wrapper{
+		padding-bottom: 50px;
+		padding-top: 100px;
+	}
+	.team-title-wrapper{
+		margin-bottom: 40px;
+	}
+	.team-slogan{
+		font-size: 20px;
+		margin-bottom: 30px;
+	}
+	.team-foto{
+		flex-wrap: wrap;
+		box-sizing: border-box;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	.team-foto-item{
+		max-width: 60%;
+	}
+	::-webkit-scrollbar {
+  width: 10px;
+  background: #222;
+	}
+}
+
